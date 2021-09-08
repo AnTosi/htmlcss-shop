@@ -66,64 +66,60 @@ div.product>div.etichette {
 }
 
 /* pic+animation */
+
+div.product {
+    transition: 1s;
+}
+div.product:hover {
+    scale: 0.98;
+}
 #product1 {
-background-image: url(../img/1.webp);
-transition: 1s;
+    background-image: url(../img/1.webp);
 }
 
 #product1:hover {
     background-image: url(../img/1b.webp);
-    scale: 0.98;
+    
 }
 
 #product2 {
     background-image: url(../img/2.webp);
-    transition: 1s;
 }
     
 #product2:hover {
     background-image: url(../img/2b.webp);
-    scale: 0.98;
 }
 
 #product3 {
     background-image: url(../img/3.webp);
-    transition: 1s;
 }
     
 #product3:hover {
     background-image: url(../img/3b.webp);
-    scale: 0.98;
 }
 
 #product4 {
     background-image: url(../img/4.webp);
-    transition: 1s;
 }
     
 #product4:hover {
     background-image: url(../img/4b.webp);
-    scale: 0.98;
 }
 
 #product5 {
     background-image: url(../img/5.webp);
-    transition: 1s;
 }
     
 #product5:hover {
     background-image: url(../img/5b.webp);
-    scale: 0.98;
 }    
 
 #product6 {
     background-image: url(../img/6.webp);
-    transition: 1s;
 }
     
 #product6:hover {
     background-image: url(../img/6b.webp);
-    scale: 0.98;
 }
 /* pic+animation */
 
