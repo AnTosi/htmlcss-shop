@@ -33,7 +33,6 @@ section.products {
 div.product_container {
     float: left;
     padding: 2.5%;
-    width: 33%;
 }
 
 div.cuore {
@@ -46,6 +45,8 @@ div.cuore {
     font-size: 25px;
     text-align: center;
     line-height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 div.etichette>span {
@@ -155,3 +156,34 @@ div.testo_sotto>span.strikethroughtext {
 }
 
 /* /testosotto */
+
+/* freccette */
+.freccette{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: none;
+}
+
+.freccette.right {
+    position:absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-10px -10px);
+
+}
+
+.freccette.left {
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-10px -10px);
+
+}
+
+div.product:hover>.freccette {
+    display: inline-block;
+}
+
+/* /freccette */
