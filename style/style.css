@@ -28,7 +28,6 @@ section.products {
 
 div.product_container {
     float: left;
-    background-color: turquoise;
 }
 
 div.cuore {
@@ -69,47 +68,47 @@ div.product>div.etichette {
 /* pic+animation */
 #product1 {
 background-image: url(../img/1.webp);
+transition: 1s;
 }
 
 #product1:hover {
     background-image: url(../img/1b.webp);
     scale: 0.98;
-    transition: 1s;
 }
 
 #product2 {
     background-image: url(../img/2.webp);
+    transition: 1s;
 }
     
 #product2:hover {
     background-image: url(../img/2b.webp);
     scale: 0.98;
-    transition: 1s;
 }
 
 #product3 {
     background-image: url(../img/3.webp);
+    transition: 1s;
 }
     
 #product3:hover {
     background-image: url(../img/3b.webp);
     scale: 0.98;
-    transition: 1s;
 }
 
 #product4 {
     background-image: url(../img/4.webp);
+    transition: 1s;
 }
     
 #product4:hover {
     background-image: url(../img/4b.webp);
     scale: 0.98;
-    transition: 1s;
 }
 
 #product5 {
     background-image: url(../img/5.webp);
-    transition: 2s;
+    transition: 1s;
 }
     
 #product5:hover {
@@ -119,12 +118,12 @@ background-image: url(../img/1.webp);
 
 #product6 {
     background-image: url(../img/6.webp);
+    transition: 1s;
 }
     
 #product6:hover {
     background-image: url(../img/6b.webp);
     scale: 0.98;
-    transition: 1s;
 }
 /* pic+animation */
 
@@ -132,19 +131,21 @@ background-image: url(../img/1.webp);
 
 div.testo_sotto {
     font-size: 1rem;
+    margin-left: 5px;
 }
 
 div.testo_sotto>h2 {
     font-weight: bold;
-    font-variant: small-caps;
-    text-align: center left;
+    font-size: 1rem;
 }
 
 div.testo_sotto>span.redtext {
-    color: #FF0000;  
+    color: #FF0000;
+    font-weight: bold;
 }
 
 div.testo_sotto>span.strikethroughtext {
     text-decoration: line-through;
 }
+
 /* /testosotto */
