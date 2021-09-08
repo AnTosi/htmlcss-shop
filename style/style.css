@@ -21,7 +21,11 @@ section.products {
     background-size: contain;
     margin-left:  5px;
     margin-right: 5px;
+}
 
+div.product_container {
+    float: left;
+    background-color: turquoise;
 }
 
 div.cuore {
@@ -45,8 +49,7 @@ div.etichette>span {
     margin-bottom: 3px;
 }
 
-div.etichette>span.sconto {
-    margin right: 3px;   
+div.etichette>span.sconto {   
     background-color: #EB0037;
 }
 
@@ -67,4 +70,9 @@ background-image: url(../img/1.webp);
 #product1:hover {
     background-image: url(../img/1b.webp);
     margin-top: 30px;
+}
+
+div.testo_sotto {
+    position: relative;
+    color: tomato;
 }
