@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .clearfix::after {
     display: table;
     clear: both;
@@ -12,7 +13,7 @@
 
 section.products {
     margin-top: 20px;
-    width: 75%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -20,15 +21,19 @@ section.products {
 
 .product {
     position: relative;
-    height: 520px;
-    width: 360px;
     background-size: contain;
     margin-left:  5px;
     margin-right: 5px;
+    height: 450px;
+    width: 312px;
+    margin-bottom: 10%;
+    border-radius: 2px;
 }
 
 div.product_container {
     float: left;
+    padding: 2.5%;
+    width: 33%;
 }
 
 div.cuore {
@@ -68,19 +73,21 @@ div.product>div.etichette {
 
 /* pic+animation */
 
-div.product {
-    transition: 1s;
-}
 div.product:hover {
-    scale: 0.98;
+    transition: 1s;
+    scale: 1.1;
+    cursor: pointer;
+
 }
+
 #product1 {
     background-image: url(../img/1.webp);
 }
 
 #product1:hover {
     background-image: url(../img/1b.webp);
-    
+    scale: 1.1;
+    cursor: pointer;
 }
 
 #product2 {
@@ -127,13 +134,15 @@ div.product:hover {
 /* testosotto*/
 
 div.testo_sotto {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 5px;
 }
 
 div.testo_sotto>h2 {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 div.testo_sotto>span.redtext {
