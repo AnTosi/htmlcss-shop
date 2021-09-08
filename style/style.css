@@ -12,6 +12,9 @@
 
 section.products {
     margin-top: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product {
@@ -63,15 +66,67 @@ div.product>div.etichette {
     bottom: 15px;
 }
 
+/* pic+animation */
 #product1 {
 background-image: url(../img/1.webp);
 }
 
 #product1:hover {
     background-image: url(../img/1b.webp);
-    margin-top: 30px;
+    scale: 0.98;
+    transition: 1s;
 }
 
+#product2 {
+    background-image: url(../img/2.webp);
+}
+    
+#product2:hover {
+    background-image: url(../img/2b.webp);
+    scale: 0.98;
+    transition: 1s;
+}
+
+#product3 {
+    background-image: url(../img/3.webp);
+}
+    
+#product3:hover {
+    background-image: url(../img/3b.webp);
+    scale: 0.98;
+    transition: 1s;
+}
+
+#product4 {
+    background-image: url(../img/4.webp);
+}
+    
+#product4:hover {
+    background-image: url(../img/4b.webp);
+    scale: 0.98;
+    transition: 1s;
+}
+
+#product5 {
+    background-image: url(../img/5.webp);
+    transition: 2s;
+}
+    
+#product5:hover {
+    background-image: url(../img/5b.webp);
+    scale: 0.98;
+}    
+
+#product6 {
+    background-image: url(../img/6.webp);
+}
+    
+#product6:hover {
+    background-image: url(../img/6b.webp);
+    scale: 0.98;
+    transition: 1s;
+}
+/* pic+animation */
 
 /* testosotto*/
 
