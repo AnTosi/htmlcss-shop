@@ -72,8 +72,9 @@ div.product {
     transition: 1s;
 }
 div.product:hover {
-    scale: 0.98;
+    transform: scale(0.98);
 }
+
 #product1 {
     background-image: url(../img/1.webp);
 }

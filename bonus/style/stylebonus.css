@@ -97,7 +97,7 @@ div.product>div.etichette {
 
 div.product:hover {
     transition: 1s;
-    scale: 1.1;
+    transform: scale(1.1);
     cursor: pointer;
 
 }
@@ -108,8 +108,6 @@ div.product:hover {
 
 #product1:hover {
     background-image: url(../img/1b.webp);
-    scale: 1.1;
-    cursor: pointer;
 }
 
 #product2 {
@@ -193,7 +191,7 @@ div.testo_sotto>span.strikethroughtext {
     position:absolute;
     top: 50%;
     right: 0;
-    transform: translate(-10px -10px);
+    transform: translate(-10px, -10px);
 
 }
 
