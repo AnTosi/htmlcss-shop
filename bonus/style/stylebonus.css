@@ -199,7 +199,7 @@ div.testo_sotto>span.strikethroughtext {
     position:absolute;
     top: 50%;
     left: 0;
-    transform: translate(-10px -10px);
+    transform: translate(-10px, -10px);
 
 }
 
