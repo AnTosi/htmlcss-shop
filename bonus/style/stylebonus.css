@@ -32,6 +32,13 @@ nav>a:hover {
     font-size: 2.5rem;
     color: rgb(82, 74, 74);
 }
+
+.product_container {
+    margin-left:  5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 section.products {
     margin-top: 20px;
     width: 85%;
@@ -43,8 +50,6 @@ section.products {
 .product {
     position: relative;
     background-size: contain;
-    margin-left:  5px;
-    margin-right: 5px;
     height: 450px;
     width: 312px;
     margin-bottom: 10%;
@@ -99,9 +104,11 @@ div.product:hover {
     transition: 1s;
     transform: scale(1.1);
     cursor: pointer;
-
 }
-
+div.product_container:hover {
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(192, 185, 185, 0.726);
+}
 #product1 {
     background-image: url(../img/1.webp);
 }
@@ -190,7 +197,7 @@ div.testo_sotto>span.strikethroughtext {
 .freccette.right {
     position:absolute;
     top: 50%;
-    right: 0;
+    right: -8px;
     transform: translate(-10px, -10px);
 
 }
@@ -198,7 +205,7 @@ div.testo_sotto>span.strikethroughtext {
 .freccette.left {
     position:absolute;
     top: 50%;
-    left: 0;
+    left: 10px;
     transform: translate(-10px, -10px);
 
 }
